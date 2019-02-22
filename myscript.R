@@ -34,3 +34,26 @@ character_vector
 character_coerce_to_number <- as.numeric(character_vector)
 character_coerce_to_number
 ?c
+cats
+cats$likes_string
+cats$likes_string_coercetologic<-as.logical(cats$like)
+ab_vector <- c("a","b")
+ab_vector
+combine_example <- c(ab_vector, "swc")
+combine_example
+myseries<-1:10
+myseries
+seq(10)
+seq(1,10,by= .1)
+zud <- seq(1,10,by= .1)
+zud
+vector2 <- seq(10)
+head(vector2,n=4)
+head(zud, n=7)
+length(zud)
+class(cats)
+typeof(cats)
+my_example <- 5:8
+my_example
+names(my_example) <- c("a","v","c","l")
+my_example
