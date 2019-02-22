@@ -3,8 +3,6 @@ cats
 write.csv(x=cats, file="data/feline.csv", row.names=FALSE)
 cats$coat
 
-
-
 # we discover weight 2 kg light
 cats$weight+2
 paste("my cat is ", cats$coat)
