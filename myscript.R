@@ -24,3 +24,13 @@ my_vector
 another_vector <- vector(mode = 'character', length = 3)
 another_vector
 str(another_vector)
+str(cats$weight)
+combine_vector<-c(2,6,3)
+combine_vector
+quiz_vector<-c(2,6,"3")  
+quiz_vector
+character_vector <- c('2','4','6')
+character_vector
+character_coerce_to_number <- as.numeric(character_vector)
+character_coerce_to_number
+?c
